@@ -54,14 +54,20 @@ WFH_STATUS_LOOKUP -- status_code, status_text, status_emoji,
 
 ## Screenshots
 
-See `/screenshots` folder.
+| Screenshot | Description |
+|-----------|-------------|
+| Dashboard.png | Weekly schedule with AM/PM session submission |
+| Team Heatmap.png | Colour-coded team heatmap current week |
+| Team Heatmap previous.png | Heatmap navigated to previous week |
+| Team Heatmap next.png | Heatmap week navigation |
+| Monthly Trends.png | Monthly WFH trends with MoM comparison |
 
 ## SQL Scripts
 
 | File | Description |
 |------|-------------|
-| `sql/wfh_seed_data.sql` | 4 months of realistic test data |
-| `sql/wfh_reports.sql` | Analytical report queries with explanations |
+| `wfh_seed_data.sql` | 4 months of realistic test data |
+| `wfh_reports.sql` | Analytical report queries with explanations |
 
 ## Deployment
 
